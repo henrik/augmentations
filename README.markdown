@@ -14,7 +14,7 @@ You define a module like
 
     module Shared
       module Pingable
-         …
+         # …
       end
     end
     
@@ -22,7 +22,7 @@ in `app/models/shared/pingable.rb`, or
 
     module User
       module PasswordResetExtension
-         …
+         # …
       end
     end
 
