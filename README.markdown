@@ -103,7 +103,7 @@ What I like about this:
 
  * A new method, `augment`, is used, rather than abusing `include`.
 
- * Less boiler-plate.
+ * Less boilerplate.
  
  * Keeps the code for class and instances together, looking just like it would do in the model. You could achieve this with `included` and `class_eval` as mentioned above, but it would not have the other benefits.
  
