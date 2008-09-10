@@ -71,7 +71,7 @@ I have some issues with this:
 
 ## New style
 
-Modules are still used (read the [Rails model extensions](http://henrik.nyh.se/2008/02/rails-model-extensions) article for details), but the API is improved.
+Modules are still used, as described above, but the API is improved.
 
 Use *Augmentations* like:
 
