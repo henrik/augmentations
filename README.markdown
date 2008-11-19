@@ -64,7 +64,7 @@ I have some issues with this:
 
  * There is too much boilerplate in the module, obscuring what you're actually adding.
 
- * Abusing the standard method `include` to not only add instance methods but also do stuff on the class level can be confusing. You could use `exclude` as well, though this is more verbose. To get the `belongs_to`, you'd still need to use module hooks, or put another line of code in the model.
+ * Abusing the standard method `include` to not only add instance methods but also do stuff on the class level can be confusing. You could use `extend` as well, though this is more verbose. To get the `belongs_to`, you'd still need to use module hooks, or put another line of code in the model.
 
  * It looks different from how the code would look if defined in the model: the instance methods are in a different block of code than the class-level stuff – though you could get around this by putting everything in the `class_eval`.
 
