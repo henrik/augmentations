@@ -1,6 +1,5 @@
 # "Augmentations" plugin for Rails.
-# By Henrik Nyh <http://henrik.nyh.se> for DanceJam <http://dancejam.com> 2008-09-10.
-# Free to modify and redistribute with credit.
+# By Henrik Nyh <http://henrik.nyh.se> under the MIT license for DanceJam <http://dancejam.com> 2008-09-10.
 # See README for usage.
 
 class ::Object
