@@ -41,13 +41,13 @@ This particular module would be found in `app/models/user/password_reset_extensi
 too.)
 
 
-## To-do
+## Module parameters
 
-Add support for module arguments; something like
+Want support for module parameters, like
 
-    augment Shared::Pingable, :pong => false
+    augment Shared::Pingable, pong: false
 
-Should be possible with `class_exec` in Ruby 1.9.
+? [Try this!](https://github.com/henrik/augmentations/issues/1#issuecomment-605628636)
 
 
 ## Credits and license
